@@ -3,7 +3,11 @@
    學生練習：修改顏色、字體大小等
    ============================ */
 
-* { box-sizing: border-box; margin: 0; padding: 0; }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font-family: 'Noto Sans TC', sans-serif;
@@ -31,8 +35,15 @@ header {
   padding: 20px 24px;
 }
 
-header h1 { font-size: 20px; }
-header .subtitle { font-size: 13px; opacity: 0.85; margin-top: 4px; }
+header h1 {
+  font-size: 20px;
+}
+
+header .subtitle {
+  font-size: 13px;
+  opacity: 0.85;
+  margin-top: 4px;
+}
 
 #chat-box {
   height: 360px;
